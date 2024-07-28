@@ -1,4 +1,4 @@
-import { StyledLogo } from "@/components/styles/Logo.styled"
+import { StyledLogo } from "@/components/styles/header/Logo.styled"
 
 const Logo = () => {
     return(

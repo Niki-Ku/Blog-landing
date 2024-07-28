@@ -2,7 +2,7 @@
 
 import Logo from "./logo/Logo"
 import Nav from "./nav/Nav"
-import { StyledHeader } from "../styles/Header.styled"
+import { StyledHeader } from "@/components/styles/header/Header.styled"
 
 const Header = () => {
     return(
