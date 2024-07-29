@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledArticleEl = styled.div`
+export const StyledArticleCard = styled.div`
     width: 150px;
 `
 

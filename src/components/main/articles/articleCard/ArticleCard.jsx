@@ -1,9 +1,9 @@
-import { StyledArticleEl, ImageContainer, Category, TextContainer, TextHeader, TextDescription } from './StyledArticleEl.styled'
+import { StyledArticleCard, ImageContainer, Category, TextContainer, TextHeader, TextDescription } from '@/components/main/articles/articleCard/StyledArticleCard.styled'
 import Link from 'next/link'
 
-export const ArticleEl = (props) => {
+const ArticleCard = (props) => {
     return (
-        <StyledArticleEl>
+        <StyledArticleCard>
             <ImageContainer>
                 <img src={props.src} alt={props.alt} />
                 <Category color={props.categoryColor}><p>{props.category}</p></Category>
@@ -15,8 +15,8 @@ export const ArticleEl = (props) => {
                     <Link href='#'>{props.author}</Link>
                 </TextDescription>
             </TextContainer>
-        </StyledArticleEl>
+        </StyledArticleCard>
     )
 }
 
-// export ArticleEl
+export default ArticleCard
