@@ -7,7 +7,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 config.autoAddCss = false;
 
 // components
-import Header from "@/components/navbar/Header"
+import Header from "@/components/header/Header"
 import Footer from "@/components/footer/Footer"
 
 const inter = Inter({ subsets: ["latin"] });

@@ -1,10 +1,9 @@
 "use client"
-import Articles from "@/components/main/articles/articles";
+import Articles from "@/components/main/articles/Articles";
 
 const Home = () => {
   return (
     <main>
-      <h1>Hello, World!</h1>
       <Articles />
     </main>
   );
