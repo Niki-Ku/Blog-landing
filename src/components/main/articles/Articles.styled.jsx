@@ -6,6 +6,6 @@ export const StyledArticles = styled.section`
     gap: 15px;
 
     div{
-        flex-basis: 32.333%
+        flex: 1 0 30%
     }
 `

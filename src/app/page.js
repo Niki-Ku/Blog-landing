@@ -4,7 +4,9 @@ import Articles from "@/components/main/articles/Articles";
 const Home = () => {
   return (
     <main>
-      <Articles />
+      <div className="container">
+        <Articles />
+      </div>
     </main>
   );
 }

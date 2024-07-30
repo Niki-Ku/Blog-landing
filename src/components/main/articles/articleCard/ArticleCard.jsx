@@ -5,8 +5,10 @@ const ArticleCard = (props) => {
     return (
         <StyledArticleCard>
             <ImageContainer>
-                <img src={props.src} alt={props.alt} />
-                <Category color={props.categoryColor}><p>{props.category}</p></Category>
+                <Link href='#'>
+                    <img src={props.src} alt={props.alt} />
+                    <Category color={props.categoryColor}><p>{props.category}</p></Category>
+                </Link>
             </ImageContainer>
             <TextContainer>
                 <TextHeader>{props.title}</TextHeader>

@@ -1,0 +1,67 @@
+{
+  "format": "custom",
+  "id": "articlecard",
+  "label": "ArticleCard",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "link_image": {
+        "type": "Image",
+        "config": {
+          "label": "Link Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "image_alt": {
+        "type": "Text",
+        "config": {
+          "label": "Image Alt",
+          "placeholder": ""
+        }
+      },
+      "category_name": {
+        "type": "Text",
+        "config": {
+          "label": "Category Name",
+          "placeholder": ""
+        }
+      },
+      "category_color": {
+        "type": "Text",
+        "config": {
+          "label": "Category Color",
+          "placeholder": ""
+        }
+      },
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "Title",
+          "placeholder": ""
+        }
+      },
+      "date": {
+        "type": "Text",
+        "config": {
+          "label": "Date",
+          "placeholder": ""
+        }
+      },
+      "author": {
+        "type": "Text",
+        "config": {
+          "label": "Author",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

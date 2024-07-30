@@ -1,0 +1,36 @@
+{
+  "id": "article_card",
+  "type": "SharedSlice",
+  "name": "ArticleCard",
+  "description": "ArticleCard",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "imagelink": {
+          "type": "Image",
+          "config": {
+            "label": "ImageLink",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "textcontentlink": {
+          "type": "StructuredText",
+          "config": {
+            "label": "textContentLink",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

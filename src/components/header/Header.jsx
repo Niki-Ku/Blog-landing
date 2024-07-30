@@ -6,10 +6,12 @@ import { StyledHeader } from "@/components/header/Header.styled"
 
 const Header = () => {
     return(
-        <StyledHeader>
-            <Logo />
-            <Nav />
-        </StyledHeader>
+        <div className="container">
+            <StyledHeader>
+                <Logo />
+                <Nav />
+            </StyledHeader>
+        </div>
     )
 }
 
